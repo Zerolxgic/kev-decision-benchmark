@@ -45,6 +45,12 @@ This file records provenance values used in the initial Kev benchmark phase.
 
 - Kev: `ggml-org/Kev-0.8B-GGUF:Q8_0`
 
+## Phase-1 evidence boundary
+
+- Git commit: `d5e53ebb40ecf1815c459844175c1e4764650754`
+- Commit message: `Add frozen Kev phase-1 evidence`
+- Meaning: this commit is the byte-preserving public evidence boundary for the frozen benchmark, runner, lean launcher, and selected raw Kev result JSONs. Release-documentation commits may follow it, but the Phase-1 evidence set itself is anchored here.
+
 ## Publication staging note
 
 The public-staging copies were hashed after copying from the canonical local lab. The publication scan for the staged benchmark, runner, launcher, and result JSONs returned no matches for the configured obvious-secret/local-path patterns. Hashes are preserved before publication so later copies can be verified byte-for-byte.
