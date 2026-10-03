@@ -7,7 +7,10 @@ All notable public benchmark changes will be recorded here.
 ### Added
 
 - Initial public repository scaffolding.
-- Apache-2.0 license.
+- Split licensing by artifact type:
+  - Apache-2.0 for code, scripts, and experiment runners.
+  - CC BY 4.0 for benchmark data, documentation, reports, tables, and figures authored for this project.
+- Root Apache 2.0 license text plus `LICENSE-CODE`, `LICENSE-CONTENT`, and `LICENSES.md` scope documentation.
 - Public README describing the phase-1 Kev evaluation and architecture boundary.
 - Collaboration disclosure.
 - Evidence and metrics methodology.
