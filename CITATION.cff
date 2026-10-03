@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its published artifacts, please cite this repository."
+title: "Kev Decision Benchmark"
+version: "0.1.0"
+date-released: 2026-10-03
+license: Apache-2.0
+repository-code: "https://github.com/Zerolxgic/kev-decision-benchmark"
+authors:
+  - name: "Zerrius"
+  - name: "ChatGPT"
+    affiliation: "OpenAI"
+keywords:
+  - decision models
+  - local AI
+  - agent systems
+  - llama.cpp
+  - ZOMAH
