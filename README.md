@@ -105,6 +105,12 @@ With that profile:
 
 The runtime profile is preserved in [`scripts/start_kev_cpu_lean.sh`](scripts/start_kev_cpu_lean.sh).
 
+## Evidence and reproducibility
+
+The frozen Phase-1 benchmark, SystemOne runner, lean runtime launcher, initial Kev run, three repeat runs, and two lean-profile runs are published in this repository. Their SHA-256 values are recorded in [`hashes/SHA256SUMS`](hashes/SHA256SUMS) and [`hashes/KNOWN_HASHES.md`](hashes/KNOWN_HASHES.md).
+
+The byte-preserving Phase-1 evidence boundary is Git commit `d5e53ebb40ecf1815c459844175c1e4764650754` (`Add frozen Kev phase-1 evidence`). Later documentation commits do not redefine the frozen Phase-1 evidence set.
+
 ## Architecture interpretation
 
 The decision model is **not** policy authority.
@@ -172,6 +178,6 @@ This repository uses split licensing by artifact type. See [`LICENSES.md`](LICEN
 
 ## Current status
 
-**Phase 1: runtime viability and frozen diagnostic completed.**
+**Phase 1: runtime viability, frozen diagnostic, and raw-evidence publication completed.**
 
 Kev-0.8B Q8 is currently the leading small CPU-first candidate tested for ZOMAH. Broader Decision Benchmark v1 validation is pending before any integration decision.
