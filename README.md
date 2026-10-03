@@ -148,6 +148,9 @@ The next benchmark will be designed around actual ZOMAH judgment jobs rather tha
 kev-decision-benchmark/
 ├── README.md
 ├── LICENSE
+├── LICENSE-CODE
+├── LICENSE-CONTENT
+├── LICENSES.md
 ├── benchmarks/
 ├── docs/
 ├── hashes/
@@ -161,7 +164,11 @@ Raw benchmark cases, runner outputs, and local result files are copied from the 
 
 ## Licensing
 
-This repository is licensed under the **Apache License 2.0**. See [`LICENSE`](LICENSE).
+This repository uses split licensing by artifact type. See [`LICENSES.md`](LICENSES.md).
+
+- Code, scripts, and experiment runners: **Apache-2.0**. The root [`LICENSE`](LICENSE) contains the full Apache 2.0 terms, and [`LICENSE-CODE`](LICENSE-CODE) states the code scope.
+- Benchmark data, documentation, reports, tables, and figures authored for this project: **CC BY 4.0**. See [`LICENSE-CONTENT`](LICENSE-CONTENT).
+- Third-party code, model weights, libraries, and referenced external assets remain under their original licenses.
 
 ## Current status
 
