@@ -111,6 +111,12 @@ The frozen Phase-1 benchmark, SystemOne runner, lean runtime launcher, initial K
 
 The byte-preserving Phase-1 evidence boundary is Git commit `d5e53ebb40ecf1815c459844175c1e4764650754` (`Add frozen Kev phase-1 evidence`). Later documentation commits do not redefine the frozen Phase-1 evidence set.
 
+## Routing development note
+
+A later worker-routing experiment produced a useful policy lesson: an unresolved semantic choice should not automatically become a human-review route merely because human review is legal. The revised development policy keeps human review as a distinct semantic destination and sends otherwise unresolved choices to stronger-model escalation.
+
+See [`report/ROUTING_LESSON_EVIDENCE_SUMMARY.md`](report/ROUTING_LESSON_EVIDENCE_SUMMARY.md) for the public-safe summary, including the v0.1 holdout result, the retrospective v0.2 analysis, and the evidence limits. These routing results are development evidence and do **not** redefine the frozen Phase-1 benchmark or establish fresh-holdout performance for policy v0.2.
+
 ## Architecture interpretation
 
 The decision model is **not** policy authority.
